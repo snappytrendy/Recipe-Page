@@ -1,0 +1,106 @@
+
+body {
+    background-color: hsl(30, 54%, 90%); 
+    font-family: 'Outfit', sans-serif;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.6;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .page-img {
+    width: 650px; 
+    height:auto ;
+  }
+  
+  .recipe-card {
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 16px;
+    max-width: 650px;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+.prep-time-card {
+    background-color: hsl(330, 100%, 98%); 
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+  }
+  
+  .prep-time-card h3 {
+    color: hsl(332, 51%, 32%); 
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .prep-time-card ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+  }
+  
+  .prep-time-card li {
+    margin-bottom: 0.5rem;
+    color: hsl(30, 10%, 34%); 
+  }
+  .h4{
+    color: hsl(14, 45%, 36%);
+  }
+  .instructions li {
+    color: hsl(24, 5%, 18%); 
+    padding-left: 1.2rem;
+  }
+  .h3{
+    color: hsl(14, 45%, 36%);
+  }
+  .ingridients li::marker {
+    color: hsl(14, 45%, 36%); 
+    font-weight: bold;
+  }
+  .instructions li::marker {
+    color: hsl(14, 45%, 36%); 
+    font-weight: bold;
+  }
+  
+  h4, h5, h3 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+  }
+  
+  .nutrition-section {
+    margin-top: 2rem;
+  }
+
+  .nutrition-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: hsl(24, 5%, 18%);
+  }
+
+  .nutrition-section p {
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 1rem;
+  }
+
+  .nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .nutrition-table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+
+  .nutrition-table td {
+    padding: 0.75rem 0;
+    color: hsl(30, 10%, 34%);
+  }
+
+  .nutrition-table td:last-child {
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+  }
+  
